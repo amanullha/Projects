@@ -1,0 +1,31 @@
+
+[
+    {
+        "question":" what is your short  name",
+        "choice1":"aman",
+        "choice2":"ullha",
+        "choice3":"no",
+        "choice4":"aman ullha",
+        "answer":1
+
+    }
+    ,
+    {
+        "question":" what is your full name",
+        "choice1":"aman",
+        "choice2":"ullha",
+        "choice3":"no",
+        "choice4":"aman ullha",
+        "answer":4
+    }
+    ,
+    {
+        "question":" what is your programming language",
+        "choice1":"jave",
+        "choice2":"python",
+        "choice3":"Javascript",
+        "choice4":"css",
+        "answer":3
+    }
+]
+

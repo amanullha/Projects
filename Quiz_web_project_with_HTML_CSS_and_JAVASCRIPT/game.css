@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.container {
+    width: 95%;
+}
+
+.choice-container {
+    display: flex;
+    margin: 10px 10px;
+    width: 100%;
+    font-size: 1.8rem;
+    border-color: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(7, 7, 7, 0.5);
+    transform: translateY(-0.5rem);
+    transition: transform 150ms;
+}
+
+.choice-container:active {
+    background-color: rgb(240, 176, 174);
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(47, 75, 202);
+    color: white;
+    font-weight: bold;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* question number and score css start  */
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+/* question number and score css end   */
+
+/* style progress bar start  */
+
+#progressBar {
+    width: 20rem;
+    height: 4rem;
+    border: .3rem solid #56a5eb;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.progressBarful {
+
+    height: 3.4rem;
+    background-color: #56a5eb;
+    width: 0%;
+
+
+}
+
+/* style progress bar end   */
+
+/* loader css start  */
+
+
+#loader {
+    border: 1.5rem solid white;
+    border-radius: 50%;
+    border-top: 1.5rem solid #56a5eb;
+    width: 12rem;
+    height: 12rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* loader css ends */
+
+/* tiemr  */
+.timer {
+    font-weight: 100px;
+    color: black;
+    text-align: center;
+    padding: 50px 10px;
+
+}
