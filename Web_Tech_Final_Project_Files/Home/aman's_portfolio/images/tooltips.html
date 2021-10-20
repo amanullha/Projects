@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>overflow and tooltip</title>
+    <style>
+      .text {
+        height: 200px;
+        width: 200px;
+        background-color: darkmagenta;
+        border: 1px solid red;
+        overflow: auto;
+        box-sizing: border-box;
+      }
+      /* position ralative ar moddhe absolutea ke rakha balo */
+
+      .tooltip {
+        position: relative;
+      }
+      .tooltip .tooltext {
+        visibility: hidden;
+        width: 150px;
+        background-color: rgb(7, 72, 75);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        /* z-index: dia text ar opr a thake */
+        z-index: 1;
+      }
+      .tooltip:hover .tooltext {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="#" class="tooltip"
+        >ola
+        <span class="tooltext">ola's link</span>
+      </a>
+    </div>
+    <br /><br />
+    <div class="text">
+      Vylag engumet hyul viragnac hyul illen halallal anyath hullothya ozuk en.
+      uen o kynzathul kynaal, wklelue syrolm iunhum ezes bua walasth. Halallal
+      leg nequem kegulm byuntelen kyul kyniuhhad. Uiraga uos scouuo fyaal ere
+      aniath kethwe viragnac. Kyul ullyetuk mezuul werethul volek sydou, sepedyk
+      thez thekunched urumemtuul syrolmol ualmun num wirud fyomnok fyaal,
+      ualallal niha sydou kyth fyom vylag wegh arad vylagumtul. Nequem werud
+      werethul farad nequem eggen aniath. Halal fyodum ozuk the therthetyk halal
+      myth engumet scegegkel. Illen epedek olelothya kunuel thekunched wegh
+      halal ualmun, anyath fyom mogomnok halal fuhazatum kynzathul ezes anyath,
+      nym buabeleul uiraga huztuzwa tuled sydou vh ezes therthetyk. Owog yg
+      fugwa ezes.
+    </div>
+  </body>
+</html>

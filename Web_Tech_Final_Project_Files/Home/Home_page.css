@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+    padding: 0px 5px;
+    /* background: #f1f1f1; */
+    background-image: url("ulab.jpg");
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* start webpage design  */
+.all {
+    /* width: 100%; */
+}
+
+/* End webpage design  */
+
+
+
+/* Style the top navigation bar */
+
+/* .haeader_class {
+    margin-bottom: 150px;
+} */
+.bg-primary {
+    /* padding-bottom: 200px;
+    background-color: rgb(0, 0, 0, 0.3); */
+    /* background-color: rgb(0, 0, 0, 0) !important; */
+}
+
+/* nav bar css start*/
+.navbar {
+    height: 8%;
+    padding: 1% 10%;
+    background-color: #030303;
+    box-shadow: 5px 5px 5px 5px #0c0b0b65;
+    /* background-color: rgb(0, 0, 0, 0.3); */
+}
+
+
+
+.navbar-icon {
+    color: #f1f1f1;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background: #9c816f;
+    color: rgb(31, 9, 236);
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 0px 15px;
+    color: white;
+    margin: 10px;
+    border-radius: 50px;
+    transition: .4s;
+}
+
+/* nav bar css end*/
+
+
+/* dropdown start  */
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9c816f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 15px;
+    margin-top: 0px;
+    border-radius: 10px;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(88, 160, 231, 0.842);
+}
+
+
+.navbar-nav .nav-item:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 575px) {
+    .dropdown-content {
+        margin-left: 120px;
+    }
+
+    .navbar {
+        height: 10%;
+
+    }
+
+    /* .navbar-nav .nav-item .nav-link { */
+    .navbar-nav {
+        background-color: #070707;
+    }
+
+
+
+
+}
+
+/* dropdown ends  */
+
+
+
+
+/* FontBody-section start  */
+
+
+.body-section .FontBody {
+    padding: 2% 5%;
+    /* background-image: url(/web_pic.jpg); */
+    background-color: #000000fb;
+    align-items: center;
+    padding-bottom: 10%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    align-items: stretch;
+
+}
+
+@media screen and (max-width: 575px) {}
+
+#WELLCOME {
+    font-size: 100px;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    font: bold;
+    color: #df851f
+}
+
+#WELLCOME2 {
+    font-size: 50px;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    font: bold;
+    color: #df851f
+}
+
+#WELLCOME3 {
+    font-size: 30px;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    font: bold;
+    color: #df851f
+}
+
+#WELLCOME4 {
+    font-size: 50px;
+    /* background-color: rgb(0, 0, 0, 0.8); */
+    font: bold;
+    color: #df851f
+}
+
+
+/* FontBody-section ends  */
+
+
+/* Create two unequal columns that floats next to each other */
+.body-section {
+    width: 98%;
+    margin: 0px auto;
+    padding-top: 150px;
+
+
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    /* background-color: #f1f1f1; */
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 5px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+/* Clear floats after the columns */
+.body-section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* features starts */
+#features {
+    padding: 5% 10%;
+    background: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    background: #bb0aac;
+    color: white;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+/* features end */
+
+
+
+
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    margin-bottom: 0;
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide,
+       make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Feedback css start  */
+.feedback-form {
+    background-color: darkgray;
+    padding: 2% 2%;
+}
+
+.feedback-form input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.feedback-form input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 2% 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-form input[type=submit]:hover {
+    background-color: #f66060;
+}
+
+.body-section p {
+    justify-content: center;
+}
+
+/* Feedback css ends  */
+
+
+
+/* Footer start  */
+.footer {
+    background-color: #2a2b24;
+    padding: 70px 0;
+}
+
+.footer .container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.footer .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer .container .row .footer-col ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e91e63;
+
+}
+
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(202, 59, 59, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #df851f;
+    background-color: #ffffff;
+}
+
+
+
+/*responsive*/
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+
+        margin-bottom: 30px;
+
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.footer .container.copy-right {
+    justify-content: center;
+    background-color: #e91e63;
+}
+
+/* Footer ends  */
+
+
+/* forgot pass  */
+
+#forgotpass {
+    cursor: pointer;
+}
+
+#forgotpass:hover {
+    color: rgb(241, 188, 90)
+}

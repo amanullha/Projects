@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+body {
+  background-image: url(images/yannick-castaing-cam0-snap2018-04-22-22-37-15.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  /* background-repeat: no-repeat; */
+  padding: 0px 5px;
+  /* background-repeat: no-repeat; */
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* form css star here */
+
+
+/* form css end here */
+
+/* Home css start here */
+.home {
+  margin: 50px 5px;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(211, 243, 243);
+}
+
+#h3home {
+  padding-top: 100px;
+  font-size: 50px;
+  color: blanchedalmond;
+}
+
+
+
+/* Home css end here */
+
+/* About me css start here */
+
+#des_aboutme {
+  margin: 5px 50px;
+  font-size: 30px;
+  /* text-align: center; */
+  padding-bottom: 350px;
+  text-align: center;
+
+}
+
+hr {
+  height: 2px;
+  width: 500px;
+  margin: 5px auto;
+}
+
+
+#h3aboutme {
+  padding-top: 100px;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(240, 198, 179);
+}
+
+/* About me css end here */
+
+/* Project css start here */
+
+#des_project {
+  margin: 5px 50px;
+  font-size: 30px;
+  /* text-align: center; */
+
+  padding-bottom: 350px;
+}
+
+#h3project {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(180, 231, 180);
+}
+
+
+
+#h2project {
+  color: rgb(238, 235, 38);
+}
+
+#h2cproject {
+  background-color: rgb(105, 104, 86);
+}
+
+/* Project css end here */
+
+/* gallery slide bar star here */
+#des_gallery {
+  margin: 5px 50px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 350px;
+}
+
+#h3gallery {
+  font-size: 50px;
+  color: aliceblue;
+  text-align: center;
+}
+
+
+
+#outerbox {
+  width: 1400px;
+  overflow: hidden;
+  margin: 5px auto;
+}
+
+#sliderbox {
+  position: relative;
+  animation-name: aman;
+  width: 3509px;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+
+#sliderbox img {
+  float: left;
+}
+
+@keyframes aman {
+  0% {
+    left: 0px;
+  }
+
+  50% {
+    left: -700px;
+  }
+
+  100% {
+    left: -2100px;
+  }
+}
+
+/* gallery slide bar end here */
+
+/* Contact css start here */
+#des_contact {
+  margin: 5px 50px;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 350px;
+}
+
+#h3contact {
+  padding-top: 100px;
+  font-size: 50px;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+
+#pcontact {
+  margin: 5px auto;
+  line-height: 70px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+#imgcontact {
+  border-radius: 10%;
+  width: 90px;
+  height: 40px;
+  margin: 0px auto;
+}
+
+/* Contact ess end here */
